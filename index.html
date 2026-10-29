@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="講義・ハンズオン資料">
+  <title>Learning Slides</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: Canvas; color: CanvasText; line-height: 1.6; }
+    header { padding: 4.5rem max(1.25rem, calc((100vw - 1080px) / 2)) 3rem; border-bottom: 1px solid color-mix(in srgb, CanvasText 16%, transparent); }
+    header p { max-width: 48rem; opacity: .75; margin-bottom: 0; }
+    h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.15; margin: 0; letter-spacing: -.035em; }
+    main { width: min(1080px, calc(100% - 2.5rem)); margin: 2rem auto 4rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); gap: 1rem; }
+    .card { border: 1px solid color-mix(in srgb, CanvasText 18%, transparent); border-radius: 1rem; padding: 1.25rem; display: flex; flex-direction: column; min-height: 205px; }
+    .meta { display: flex; gap: .5rem; flex-wrap: wrap; font-size: .76rem; opacity: .72; text-transform: uppercase; letter-spacing: .04em; }
+    .meta span { border: 1px solid color-mix(in srgb, CanvasText 20%, transparent); border-radius: 999px; padding: .12rem .55rem; }
+    h2 { font-size: 1.25rem; line-height: 1.35; margin: 1rem 0 .4rem; }
+    a { color: LinkText; }
+    .card p { margin: 0 0 1.25rem; opacity: .8; }
+    .open { margin-top: auto; font-weight: 650; text-decoration: none; }
+    .open:hover, h2 a:hover { text-decoration: underline; }
+    footer { width: min(1080px, calc(100% - 2.5rem)); margin: 0 auto 2rem; opacity: .6; font-size: .85rem; }
+    .empty { opacity: .7; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Learning Slides</h1>
+    <p>講義・ハンズオン資料</p>
+  </header>
+  <main>
+    <div class="grid">
+      <article class="card">
+  <div class="meta"><span>サンプル</span><span>MARP</span></div>
+  <h2><a href="/learning-slides-site/marp-example/">Marp のサンプル</a></h2>
+  <p>Markdown と画像素材から静的 HTML を生成する例。</p>
+  <a class="open" href="/learning-slides-site/marp-example/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>サンプル</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/slidev-example/">Slidev のサンプル</a></h2>
+  <p>Slidev の SPA をサブパス向けにビルドする例。</p>
+  <a class="open" href="/learning-slides-site/slidev-example/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>バイナリ</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/binary-1/">バイナリ入門</a></h2>
+  <p>バイナリに慣れることをねらう</p>
+  <a class="open" href="/learning-slides-site/binary-1/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>セットアップ</span><span>MARP</span></div>
+  <h2><a href="/learning-slides-site/huit05-1/">環境構築</a></h2>
+  <p>環境構築を行う</p>
+  <a class="open" href="/learning-slides-site/huit05-1/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>永続化</span><span>ゲーム</span><span>MARP</span></div>
+  <h2><a href="/learning-slides-site/huit05-4/">ローカル永続化</a></h2>
+  <p>クリッカーゲームでデータ保存を利用する</p>
+  <a class="open" href="/learning-slides-site/huit05-4/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>ネットワーク</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/network-01/">ネットワーク入門</a></h2>
+  <p>通信のイメージをつかむことをねらう</p>
+  <a class="open" href="/learning-slides-site/network-01/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>音声</span><span>通信</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/websocket-01/">WebSocketでリアルタイム通話</a></h2>
+  <p>音声のデータ表現を実際のアプリケーション制作から理解することをねらう</p>
+  <a class="open" href="/learning-slides-site/websocket-01/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>画像</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/svg-01/">手書きsvg事始め</a></h2>
+  <p>ベクタグラフィックスにふれる</p>
+  <a class="open" href="/learning-slides-site/svg-01/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>CLI</span><span>永続化</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/password-manager-01/">パスワードマネージャ制作第1回-対話CLIと保存</a></h2>
+  <p>対話CLIと保存を行う</p>
+  <a class="open" href="/learning-slides-site/password-manager-01/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>暗号化</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/password-manager-02/">パスワードマネージャ制作第2回-暗号化</a></h2>
+  <p>暗号化ライブラリを利用できるようになることをねらう</p>
+  <a class="open" href="/learning-slides-site/password-manager-02/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>TUI</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/password-manager-03/">パスワードマネージャ制作第3回-TUI</a></h2>
+  <p>TUIでUXを向上させる</p>
+  <a class="open" href="/learning-slides-site/password-manager-03/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>オセロ</span><span>設計</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/othello-40x40/">40x40のオセロを作ろう</a></h2>
+  <p>構想から設計，コードまでの過程を再利用可能な形で理解することをねらう</p>
+  <a class="open" href="/learning-slides-site/othello-40x40/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+<article class="card">
+  <div class="meta"><span>CLI</span><span>シェル</span><span>JavaScript</span><span>awk</span><span>SLIDEV</span></div>
+  <h2><a href="/learning-slides-site/linux-text-processing/">Linuxテキスト処理 第1回〜第3回</a></h2>
+  <p>grep・cut・sed・awk の地図から JavaScript との対応、awk の文法までを1本にまとめた連続資料</p>
+  <a class="open" href="/learning-slides-site/linux-text-processing/">スライドを開く <span aria-hidden="true">→</span></a>
+</article>
+    </div>
+  </main>
+  <footer>教材一覧はソースリポジトリのカタログから生成されています。</footer>
+</body>
+</html>
