@@ -1,0 +1,1 @@
+var e=`/learning-slides-site/svg-01/assets/house.svg`;export{e as t};

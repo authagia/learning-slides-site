@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="230" viewBox="0 0 300 230">
+  <!-- 直線だけのパス -->
+  <path d="M 20 30 L 80 30 L 50 80 Z" fill="#9fd8ff" stroke="#333333" stroke-width="3" stroke-linejoin="round"/>
+  <text x="20" y="100" font-size="13" fill="#333333">M・L・Z（直線）</text>
+  <!-- 二次ベジェ曲線 -->
+  <line x1="120" y1="60" x2="160" y2="10" stroke="#999999" stroke-width="1" stroke-dasharray="5 3"/>
+  <line x1="200" y1="60" x2="160" y2="10" stroke="#999999" stroke-width="1" stroke-dasharray="5 3"/>
+  <path d="M 120 60 Q 160 10 200 60" fill="none" stroke="#e05555" stroke-width="4"/>
+  <circle cx="120" cy="60" r="4" fill="#333333"/>
+  <circle cx="200" cy="60" r="4" fill="#333333"/>
+  <rect x="155" y="5" width="10" height="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="118" y="100" font-size="13" fill="#333333">Q（二次・制御点1つ）</text>
+  <!-- 三次ベジェ曲線 -->
+  <line x1="230" y1="60" x2="245" y2="10" stroke="#999999" stroke-width="1" stroke-dasharray="5 3"/>
+  <line x1="290" y1="60" x2="275" y2="10" stroke="#999999" stroke-width="1" stroke-dasharray="5 3"/>
+  <path d="M 230 60 C 245 10 275 10 290 60" fill="none" stroke="#2a7f4d" stroke-width="4"/>
+  <circle cx="230" cy="60" r="4" fill="#333333"/>
+  <circle cx="290" cy="60" r="4" fill="#333333"/>
+  <rect x="240" y="5" width="10" height="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="270" y="5" width="10" height="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="218" y="100" font-size="13" fill="#333333">C（三次・制御点2つ）</text>
+  <text x="20" y="140" font-size="13" fill="#333333">●＝始点・終点　□＝制御点　破線＝制御点との関係</text>
+  <path d="M 20 170 Q 80 150 140 170 T 260 170" fill="none" stroke="#333333" stroke-width="4"/>
+  <text x="20" y="200" font-size="13" fill="#333333">T（Qの連続・制御点を自動反射）</text>
+</svg>
